@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.netflix.discovery.shared.resolver.ReloadingClusterResolverTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.netflix.discovery.shared.resolver.ReloadingClusterResolverTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.netflix.discovery.shared.resolver.html">com.netflix.discovery.shared.resolver</a> &gt; ReloadingClusterResolverTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.251s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDataAreReloadedPeriodically</td>
+<td>0.241s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIdenticalListsDoNotCauseReload</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:27:46.013 [Thread-4] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.020 [Thread-4] INFO  c.n.d.s.r.ReloadingClusterResolver - Initiated with delegate resolver of type class com.netflix.discovery.shared.resolver.StaticClusterResolver; next reload in 0[sec]. Loaded endpoints=[AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.125 [Thread-4] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.126 [Thread-4] DEBUG c.n.d.s.r.ReloadingClusterResolver - Loaded cluster server list identical to the current one; no update required
+19:27:46.130 [Thread-4] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.20.0:80/eureka/v2', region='us-east-1', zone='us-east-1b'}, AwsEndpoint{ serviceUrl='http://10.10.20.1:80/eureka/v2', region='us-east-1', zone='us-east-1b'}]
+19:27:46.130 [Thread-4] INFO  c.n.d.s.r.ReloadingClusterResolver - Reload endpoints differ from the original list; next reload in 0[sec], Loaded endpoints=[AwsEndpoint{ serviceUrl='http://10.10.20.0:80/eureka/v2', region='us-east-1', zone='us-east-1b'}, AwsEndpoint{ serviceUrl='http://10.10.20.1:80/eureka/v2', region='us-east-1', zone='us-east-1b'}]
+19:27:46.132 [Thread-5] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.132 [Thread-5] INFO  c.n.d.s.r.ReloadingClusterResolver - Initiated with delegate resolver of type class com.netflix.discovery.shared.resolver.StaticClusterResolver; next reload in 0[sec]. Loaded endpoints=[AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.133 [Thread-5] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.133 [Thread-5] DEBUG c.n.d.s.r.ReloadingClusterResolver - Loaded cluster server list identical to the current one; no update required
+19:27:46.139 [Thread-5] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.10.0:80/eureka/v2', region='us-east-1', zone='us-east-1a'}, AwsEndpoint{ serviceUrl='http://10.10.10.1:80/eureka/v2', region='us-east-1', zone='us-east-1a'}]
+19:27:46.140 [Thread-5] DEBUG c.n.d.s.r.ReloadingClusterResolver - Loaded cluster server list identical to the current one; no update required
+19:27:46.141 [Thread-5] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [AwsEndpoint{ serviceUrl='http://10.10.20.0:80/eureka/v2', region='us-east-1', zone='us-east-1b'}, AwsEndpoint{ serviceUrl='http://10.10.20.1:80/eureka/v2', region='us-east-1', zone='us-east-1b'}]
+19:27:46.141 [Thread-5] INFO  c.n.d.s.r.ReloadingClusterResolver - Reload endpoints differ from the original list; next reload in 0[sec], Loaded endpoints=[AwsEndpoint{ serviceUrl='http://10.10.20.0:80/eureka/v2', region='us-east-1', zone='us-east-1b'}, AwsEndpoint{ serviceUrl='http://10.10.20.1:80/eureka/v2', region='us-east-1', zone='us-east-1b'}]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at 9 avr. 2017 19:28:05</p>
+</div>
+</div>
+</body>
+</html>

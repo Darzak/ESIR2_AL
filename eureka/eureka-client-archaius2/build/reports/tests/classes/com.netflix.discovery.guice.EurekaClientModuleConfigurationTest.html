@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.netflix.discovery.guice.EurekaClientModuleConfigurationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.netflix.discovery.guice.EurekaClientModuleConfigurationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.netflix.discovery.guice.html">com.netflix.discovery.guice</a> &gt; EurekaClientModuleConfigurationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.763s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBindEurekaInstanceConfigFactory</td>
+<td>0.763s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:28:11.162 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultSettableConfig
+19:28:11.170 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+19:28:11.170 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$ConfigParameters
+19:28:11.171 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.readers.PropertiesConfigReader
+19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.SingletonImmutableSet
+19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$OptionalCascadeStrategy
+19:28:11.176 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.DefaultConfigLoader
+19:28:11.184 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties
+19:28:11.186 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties (Aucun fichier ou dossier de ce type)
+19:28:11.187 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded application 
+19:28:11.188 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+19:28:11.188 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.ConfigurationInjectingListener
+19:28:11.188 [Test worker] INFO  c.n.a.g.ConfigurationInjectingListener - Initializing ConfigurationInjectingListener
+19:28:11.190 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.RegularImmutableSet
+19:28:11.191 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener initialized []
+19:28:11.192 [Test worker] INFO  c.n.governator.LifecycleManager - Adding LifecycleListener 'Safe[LifecycleProvisionListener[]]' 1827370678
+19:28:11.200 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Starting LifecycleListener 'LifecycleProvisionListener[]'
+19:28:11.206 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+19:28:11.207 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+19:28:11.207 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+19:28:11.207 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at 9 avr. 2017 19:28:13</p>
+</div>
+</div>
+</body>
+</html>

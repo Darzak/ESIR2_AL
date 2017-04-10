@@ -1,0 +1,10 @@
+com.netflix.eureka:eureka-client:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-client-archaius2:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-client-jersey2:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-core:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-core-jersey2:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-examples:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-resources:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-server:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-server-governator:1.6.3-SNAPSHOT
+com.netflix.eureka:eureka-test-utils:1.6.3-SNAPSHOT

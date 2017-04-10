@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.DiscoveryClientDisableRegistryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:26:11" hostname="pc54.home" time="0.217">
+  <properties/>
+  <testcase name="testDisableFetchRegistry" classname="com.netflix.discovery.DiscoveryClientDisableRegistryTest" time="0.217"/>
+  <system-out><![CDATA[19:26:12.071 [Test worker] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+19:26:12.075 [Test worker] DEBUG org.mortbay.log - Container Server@675788a8 + SocketConnector@0.0.0.0:0 as connector
+19:26:12.076 [Test worker] DEBUG org.mortbay.log - Container Server@675788a8 + MockRemoteEurekaServer$AppsResourceHandler@5ecbaacd as handler
+19:26:12.077 [Test worker] INFO  org.mortbay.log - jetty-6.1H.22
+19:26:12.086 [Test worker] DEBUG org.mortbay.log - Container Server@675788a8 + org.mortbay.thread.QueuedThreadPool@b584a01 as threadpool
+19:26:12.087 [Test worker] DEBUG org.mortbay.log - started org.mortbay.thread.QueuedThreadPool@b584a01
+19:26:12.087 [Test worker] DEBUG org.mortbay.log - starting MockRemoteEurekaServer$AppsResourceHandler@5ecbaacd
+19:26:12.087 [Test worker] DEBUG org.mortbay.log - started MockRemoteEurekaServer$AppsResourceHandler@5ecbaacd
+19:26:12.087 [Test worker] DEBUG org.mortbay.log - starting Server@675788a8
+19:26:12.090 [Test worker] INFO  org.mortbay.log - Started SocketConnector@0.0.0.0:46017
+19:26:12.091 [Test worker] DEBUG org.mortbay.log - started SocketConnector@0.0.0.0:46017
+19:26:12.092 [Test worker] DEBUG org.mortbay.log - started Server@675788a8
+19:26:12.109 [Test worker] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+19:26:12.109 [Test worker] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19:26:12.159 [Test worker] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@537f6159
+19:26:12.163 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:12.168 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:12.193 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+19:26:12.193 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+19:26:12.200 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1491758772200 with initial instances count: 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

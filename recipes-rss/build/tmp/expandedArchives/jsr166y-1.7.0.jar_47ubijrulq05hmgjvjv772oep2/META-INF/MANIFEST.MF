@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: jsr166y;uses:="sun.misc";version="1.7.0"
+Implementation-Title: JSR166y
+Implementation-Version: 1.7.0
+Built-By: russel
+Specification-Vendor: Doug Lea
+Tool: Bnd-1.15.0
+Bundle-Name: jsr166y
+Created-By: 1.6.0_18 (Sun Microsystems Inc.)
+Implementation-Vendor: Doug Lea
+Bundle-Vendor: Doug Lea
+Bundle-Version: 1.7.0
+Bnd-LastModified: 1304949939535
+Bundle-ManifestVersion: 2
+Specification-Title: JSR166y
+Bundle-Description: build
+Bundle-DocURL: http://jsr166.codehaus.org
+Bundle-SymbolicName: jsr166y
+Import-Package: sun.misc;resolution:=optional
+Specification-Version: 1.7.0
+Extension-Name: jsr166y
+

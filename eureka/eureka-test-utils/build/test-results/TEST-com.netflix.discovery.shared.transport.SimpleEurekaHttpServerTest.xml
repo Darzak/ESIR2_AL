@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:30:10" hostname="pc54.home" time="2.806">
+  <properties/>
+  <testcase name="testGetSecureVipRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="1.362"/>
+  <testcase name="testGetVipWithRemoteRegionRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.126"/>
+  <testcase name="testStatusUpdateDeleteRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.106"/>
+  <testcase name="testGetApplicationsRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.105"/>
+  <testcase name="testGetSecureVipWithRemoteRegionRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.111"/>
+  <testcase name="testGetVipRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.103"/>
+  <testcase name="testGetApplicationInstanceRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.084"/>
+  <testcase name="testCancelRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.085"/>
+  <testcase name="testRegisterRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.101"/>
+  <testcase name="testBasicAuthentication" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.096"/>
+  <testcase name="testGetDeltaWithRemoteRegionRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.092"/>
+  <testcase name="testGetDeltaRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.085"/>
+  <testcase name="testGetInstanceRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.091"/>
+  <testcase name="testHeartbeatRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.076"/>
+  <testcase name="testStatusUpdateRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.07"/>
+  <testcase name="testGetApplicationsWithRemoteRegionRequest" classname="com.netflix.discovery.shared.transport.SimpleEurekaHttpServerTest" time="0.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+avr. 09, 2017 7:30:12 PM sun.net.httpserver.ExchangeImpl sendResponseHeaders
+AVERTISSEMENT: sendResponseHeaders: rCode = 204: forcing contentLen = -1
+avr. 09, 2017 7:30:12 PM sun.net.httpserver.ExchangeImpl sendResponseHeaders
+AVERTISSEMENT: sendResponseHeaders: rCode = 204: forcing contentLen = -1
+]]></system-err>
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.eureka.cluster.JerseyReplicationClientTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:28:25" hostname="pc54.home" time="4.75">
+  <properties/>
+  <testcase name="testCancelReplication" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="1.433"/>
+  <testcase name="testStatusUpdateReplication" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.19"/>
+  <testcase name="testHeartbeatReplicationWithNoResponseBody" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.211"/>
+  <testcase name="testDeleteStatusOverrideReplication" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.223"/>
+  <testcase name="testRegistrationReplication" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.163"/>
+  <testcase name="testHeartbeatReplicationWithResponseBody" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.185"/>
+  <testcase name="testAsgStatusUpdateReplication" classname="com.netflix.eureka.cluster.JerseyReplicationClientTest" time="0.227"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/polivier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.10/5b0027a74461a877acb12602ac141da9161304dd/slf4j-simple-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/polivier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Test worker] WARN com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[Test worker] INFO com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[Test worker] INFO com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4a2bc7aa
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-4] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 37188
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-5] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 34416
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-6] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 45326
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-7] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 32924
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-8] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 36874
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-9] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 35073
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Thread-10] INFO org.mockserver.mockserver.MockServer - MockServer starting up on port: 40915
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[Test worker] INFO com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+]]></system-err>
+</testsuite>

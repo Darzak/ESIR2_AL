@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.shared.resolver.StaticClusterResolverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:47" hostname="pc54.home" time="0.122">
+  <properties/>
+  <testcase name="testClusterResolverFromURL" classname="com.netflix.discovery.shared.resolver.StaticClusterResolverTest" time="0.122"/>
+  <system-out><![CDATA[19:27:47.818 [Test worker] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [DefaultEndpoint{ serviceUrl='http://eureka.test:8080/eureka/v2/apps}]
+19:27:47.827 [Test worker] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [DefaultEndpoint{ serviceUrl='https://eureka.test:8081/eureka/v2/apps}]
+19:27:47.828 [Test worker] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [DefaultEndpoint{ serviceUrl='http://eureka.test:80/eureka/v2/apps}]
+19:27:47.828 [Test worker] DEBUG c.n.d.s.r.StaticClusterResolver - Fixed resolver configuration: [DefaultEndpoint{ serviceUrl='https://eureka.test:443/eureka/v2/apps}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

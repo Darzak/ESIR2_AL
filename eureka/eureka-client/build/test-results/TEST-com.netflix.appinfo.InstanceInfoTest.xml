@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.appinfo.InstanceInfoTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:26:04" hostname="pc54.home" time="0.25">
+  <properties/>
+  <testcase name="testAppGroupNameSystemProp" classname="com.netflix.appinfo.InstanceInfoTest" time="0.219"/>
+  <testcase name="testCopyConstructor" classname="com.netflix.appinfo.InstanceInfoTest" time="0.008"/>
+  <testcase name="testGetIdWithInstanceIdNotUsed" classname="com.netflix.appinfo.InstanceInfoTest" time="0.017"/>
+  <testcase name="testGetIdWithInstanceIdUsed" classname="com.netflix.appinfo.InstanceInfoTest" time="0.001"/>
+  <testcase name="testAppGroupName" classname="com.netflix.appinfo.InstanceInfoTest" time="0.001"/>
+  <testcase name="testHealthCheckSetContainsValidUrlEntries" classname="com.netflix.appinfo.InstanceInfoTest" time="0.002"/>
+  <system-out><![CDATA[19:26:04.861 [Test worker] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+19:26:04.866 [Test worker] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19:26:04.930 [Test worker] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@484f5169
+19:26:04.939 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:04.971 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

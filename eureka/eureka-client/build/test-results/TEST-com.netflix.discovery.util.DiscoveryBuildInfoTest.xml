@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.util.DiscoveryBuildInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:28:03" hostname="pc54.home" time="0.104">
+  <properties/>
+  <testcase name="testRequestedManifestIsLocatedAndLoaded" classname="com.netflix.discovery.util.DiscoveryBuildInfoTest" time="0.104"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

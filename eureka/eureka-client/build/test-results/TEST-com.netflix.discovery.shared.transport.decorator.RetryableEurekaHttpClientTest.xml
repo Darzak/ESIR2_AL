@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:57" hostname="pc54.home" time="0.245">
+  <properties/>
+  <testcase name="testErrorResponseIsReturnedIfRetryLimitIsReached" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.197"/>
+  <testcase name="testRequestIsRetriedOnConnectionError" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.011"/>
+  <testcase name="testQuarantineListIsResetWhenNoMoreServerAreAvailable" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.006"/>
+  <testcase name="testRequestsReuseSameConnectionIfThereIsNoError" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.003"/>
+  <testcase name="testConcurrentRequestsLeaveLastSuccessfulDelegate" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.02"/>
+  <testcase name="test5xxStatusCodeResultsInRequestRetry" classname="com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClientTest" time="0.003"/>
+  <system-out><![CDATA[19:27:57.946 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.951 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.956 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.956 [Test worker] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+19:27:57.967 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.968 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.968 [Test worker] DEBUG c.n.d.s.t.d.RetryableEurekaHttpClient - Clearing quarantined list of size 2
+19:27:57.969 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.970 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: simulated network error
+19:27:57.970 [Test worker] DEBUG c.n.d.s.t.d.RetryableEurekaHttpClient - Clearing quarantined list of size 2
+19:27:57.999 [Test worker] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure with status code 500; retrying on another server if available
+19:27:57.999 [Test worker] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

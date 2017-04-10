@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.appinfo.ApplicationInfoManagerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:26:02" hostname="pc54.home" time="0.296">
+  <properties/>
+  <testcase name="testRefreshDataCenterInfoWithAmazonInfo" classname="com.netflix.appinfo.ApplicationInfoManagerTest" time="0.289"/>
+  <testcase name="testCustomInstanceStatusMapper" classname="com.netflix.appinfo.ApplicationInfoManagerTest" time="0.004"/>
+  <testcase name="testNullResultInstanceStatusMapper" classname="com.netflix.appinfo.ApplicationInfoManagerTest" time="0.003"/>
+  <system-out><![CDATA[19:26:02.909 [Test worker] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+19:26:02.911 [Test worker] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19:26:02.928 [Test worker] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a683ef4
+19:26:02.941 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:02.943 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:03.090 [Test worker] WARN  c.n.appinfo.ApplicationInfoManager - The address changed from : instance0.application0.com => newValue
+19:26:03.092 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:03.092 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:03.095 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:26:03.096 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xbean.finder.util;version="3.11.1",org.apac
+ he.xbean.finder.archive;uses:="org.apache.xbean.osgi.bundle.util,org.
+ osgi.framework,org.osgi.service.packageadmin,org.apache.xbean.finder.
+ filter";version="3.11.1",org.apache.xbean.finder.filter;version="3.11
+ .1",org.apache.xbean.finder;uses:="org.apache.xbean.finder.util,org.o
+ bjectweb.asm.signature,org.objectweb.asm,org.objectweb.asm.commons,or
+ g.apache.xbean.finder.archive,org.apache.xbean.osgi.bundle.util,org.o
+ sgi.framework,org.osgi.service.packageadmin,org.slf4j,org.apache.xbea
+ n.finder.filter";version="3.11.1"
+Implementation-Title: Apache XBean :: Classpath Resource Finder
+Implementation-Version: 3.11.1
+Built-By: forrestxm
+Tool: Bnd-0.0.311
+Bundle-Name: Apache XBean :: Classpath Resource Finder
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_29
+Bundle-Version: 3.11.1
+Bnd-LastModified: 1339147167567
+Bundle-ManifestVersion: 2
+Bundle-Description: XBean Finder helps to find annotations in classes
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://geronimo.apache.org/maven/xbean/3.11.1/xbean-fin
+ der
+Bundle-SymbolicName: org.apache.xbean.finder
+Import-Package: org.apache.xbean.finder;version="3.11",org.apache.xbea
+ n.finder.archive;version="3.11",org.apache.xbean.finder.filter;versio
+ n="3.11",org.apache.xbean.finder.util;version="3.11",org.apache.xbean
+ .osgi.bundle.util;version="3.11",org.objectweb.asm;version="3.1",org.
+ objectweb.asm.commons;version="3.1",org.objectweb.asm.signature,org.o
+ sgi.framework;version="1.5",org.osgi.service.packageadmin;version="1.
+ 2",org.slf4j;version="1.5"
+

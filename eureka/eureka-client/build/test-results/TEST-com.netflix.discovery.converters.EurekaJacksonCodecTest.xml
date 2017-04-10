@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.converters.EurekaJacksonCodecTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:32" hostname="pc54.home" time="0.47">
+  <properties/>
+  <testcase name="testApplicationsXStreamEncodeJacksonDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.323"/>
+  <testcase name="testJacksonWrite" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.036"/>
+  <testcase name="testInstanceInfoXStreamEncodeJacksonDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.006"/>
+  <testcase name="testApplicationJacksonEncodeXStreamDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.022"/>
+  <testcase name="testApplicationJacksonEncodeDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.008"/>
+  <testcase name="testApplicationsJacksonEncodeDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.012"/>
+  <testcase name="testJacksonWriteToString" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.008"/>
+  <testcase name="testApplicationsJacksonEncodeXStreamDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.011"/>
+  <testcase name="testInstanceInfoJacksonEncodeXStreamDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.005"/>
+  <testcase name="testInstanceInfoJacksonEncodeDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.008"/>
+  <testcase name="testApplicationXStreamEncodeJacksonDecode" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.011"/>
+  <testcase name="testInstanceInfoJacksonEncodeDecodeWithoutMetaData" classname="com.netflix.discovery.converters.EurekaJacksonCodecTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.netflix.discovery.converters.EurekaCodecCompatibilityTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.netflix.discovery.converters.EurekaCodecCompatibilityTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.netflix.discovery.converters.html">com.netflix.discovery.converters</a> &gt; EurekaCodecCompatibilityTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.816s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testApplicationEncodeDecode</td>
+<td>0.057s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testApplicationsEncodeDecode</td>
+<td>0.269s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testApplicationsJsonEncodeDecodeWithSingleAppItem</td>
+<td>0.230s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBatchRequestEncoding</td>
+<td>0.074s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBatchResponseEncoding</td>
+<td>0.043s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoEncodeDecode</td>
+<td>0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoEncodeDecodeJsonWithEmptyMetadataMap</td>
+<td>0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoEncodeDecodeLegacyJacksonToJackson</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoFullEncodeMiniDecodeJackson</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoFullEncodeMiniDecodeJacksonWithMyOwnDataCenterInfo</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInstanceInfoMiniEncodeMiniDecodeJackson</td>
+<td>0.025s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Encoding Applications using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding Applications using {LegacyJacksonJson,JacksonJson}
+Encoding Applications using {JacksonJson,LegacyJacksonJson}
+Encoding Applications using {JacksonJson,JacksonJson}
+Encoding InstanceInfo using {JacksonJsonMini,JacksonJsonMini}
+Encoding InstanceInfo using {LegacyJacksonJson,JacksonJson}
+Encoding ReplicationList using {JacksonJson,JacksonJson}
+Encoding ReplicationList using {JacksonJson,LegacyJacksonJson}
+Encoding ReplicationList using {LegacyJacksonJson,JacksonJson}
+Encoding ReplicationList using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding Applications using {XStreamJson,XStreamJson}
+Encoding Applications using {XStreamJson,LegacyJacksonJson}
+Encoding Applications using {XStreamJson,JacksonJson}
+Encoding Applications using {LegacyJacksonJson,XStreamJson}
+Encoding Applications using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding Applications using {LegacyJacksonJson,JacksonJson}
+Encoding Applications using {JacksonJson,XStreamJson}
+Encoding Applications using {JacksonJson,LegacyJacksonJson}
+Encoding Applications using {JacksonJson,JacksonJson}
+Encoding Applications using {JacksonXml,JacksonXml}
+Encoding Applications using {JacksonXml,XStreamXml}
+Encoding Applications using {XStreamXml,JacksonXml}
+Encoding Applications using {XStreamXml,XStreamXml}
+Encoding ReplicationListResponse using {JacksonJson,JacksonJson}
+Encoding ReplicationListResponse using {JacksonJson,LegacyJacksonJson}
+Encoding ReplicationListResponse using {LegacyJacksonJson,JacksonJson}
+Encoding ReplicationListResponse using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding InstanceInfo using {JacksonJson,JacksonJsonMini}
+Encoding Application using {XStreamJson,XStreamJson}
+Encoding Application using {XStreamJson,LegacyJacksonJson}
+Encoding Application using {XStreamJson,JacksonJson}
+Encoding Application using {LegacyJacksonJson,XStreamJson}
+Encoding Application using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding Application using {LegacyJacksonJson,JacksonJson}
+Encoding Application using {JacksonJson,XStreamJson}
+Encoding Application using {JacksonJson,LegacyJacksonJson}
+Encoding Application using {JacksonJson,JacksonJson}
+Encoding Application using {JacksonXml,JacksonXml}
+Encoding Application using {JacksonXml,XStreamXml}
+Encoding Application using {XStreamXml,JacksonXml}
+Encoding Application using {XStreamXml,XStreamXml}
+Encoding InstanceInfo using {JacksonJson,JacksonJsonMini}
+Encoding Application using {XStreamJson,XStreamJson}
+Encoding Application using {XStreamJson,LegacyJacksonJson}
+Encoding Application using {XStreamJson,JacksonJson}
+Encoding Application using {LegacyJacksonJson,XStreamJson}
+Encoding Application using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding Application using {LegacyJacksonJson,JacksonJson}
+Encoding Application using {JacksonJson,XStreamJson}
+Encoding Application using {JacksonJson,LegacyJacksonJson}
+Encoding Application using {JacksonJson,JacksonJson}
+Encoding Application using {JacksonXml,JacksonXml}
+Encoding Application using {JacksonXml,XStreamXml}
+Encoding Application using {XStreamXml,JacksonXml}
+Encoding Application using {XStreamXml,XStreamXml}
+Encoding InstanceInfo using {XStreamJson,XStreamJson}
+Encoding InstanceInfo using {XStreamJson,LegacyJacksonJson}
+Encoding InstanceInfo using {XStreamJson,JacksonJson}
+Encoding InstanceInfo using {LegacyJacksonJson,XStreamJson}
+Encoding InstanceInfo using {LegacyJacksonJson,LegacyJacksonJson}
+Encoding InstanceInfo using {LegacyJacksonJson,JacksonJson}
+Encoding InstanceInfo using {JacksonJson,XStreamJson}
+Encoding InstanceInfo using {JacksonJson,LegacyJacksonJson}
+Encoding InstanceInfo using {JacksonJson,JacksonJson}
+Encoding InstanceInfo using {JacksonXml,JacksonXml}
+Encoding InstanceInfo using {JacksonXml,XStreamXml}
+Encoding InstanceInfo using {XStreamXml,JacksonXml}
+Encoding InstanceInfo using {XStreamXml,XStreamXml}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at 9 avr. 2017 19:28:05</p>
+</div>
+</div>
+</body>
+</html>

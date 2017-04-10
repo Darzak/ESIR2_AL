@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.eureka.resources.ReplicationConcurrencyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:29:40" hostname="pc54.home" time="0.869">
+  <properties/>
+  <testcase name="testReplicationWithRegistrationAndUpdateOnDifferentServers" classname="com.netflix.eureka.resources.ReplicationConcurrencyTest" time="0.869"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/polivier/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.10/5b0027a74461a877acb12602ac141da9161304dd/slf4j-simple-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/polivier/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Test worker] WARN com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[Test worker] INFO com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[Test worker] INFO com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@31117c94
+[Test worker] WARN com.netflix.discovery.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] INFO com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider - Setting initial instance status as: STARTING
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] WARN com.netflix.discovery.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+[Test worker] WARN com.netflix.discovery.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] INFO com.netflix.appinfo.providers.EurekaConfigBasedInstanceInfoProvider - Setting initial instance status as: STARTING
+[Test worker] WARN com.netflix.eureka.DefaultEurekaServerConfig - Cannot find the properties specified : eureka-server. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] WARN com.netflix.discovery.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance APPLICATION0/i-00000000 with status STARTING (replication=false)
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance APPLICATION0/i-00000000 with status UP (replication=false)
+[Test worker] WARN com.netflix.eureka.registry.AbstractInstanceRegistry - There is an existing lease and the existing lease's dirty timestamp 22222 is greater than the one that is being registered 11111
+[Test worker] WARN com.netflix.eureka.registry.AbstractInstanceRegistry - Using the existing instanceInfo instead of the new instanceInfo as the registrant
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance APPLICATION0/i-00000000 with status UP (replication=true)
+[Test worker] INFO com.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance APPLICATION0/i-00000000 with status UP (replication=true)
+]]></system-err>
+</testsuite>

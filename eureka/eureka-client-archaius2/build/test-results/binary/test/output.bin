@@ -1,0 +1,109 @@
+±19:28:09.615 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultSettableConfig
+≤19:28:09.624 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+•19:28:09.625 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.MapConfig
+¬19:28:09.625 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$ConfigParameters
+≤19:28:09.625 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+≥19:28:09.629 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.readers.PropertiesConfigReader
+Ø19:28:09.630 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.SingletonImmutableSet
+…19:28:09.630 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$OptionalCascadeStrategy
+®19:28:09.632 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.DefaultConfigLoader
+¥19:28:09.638 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties
+∫19:28:09.640 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties (Aucun fichier ou dossier de ce type)
+X19:28:09.640 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded application 
+≤19:28:09.640 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+π19:28:09.641 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.ConfigurationInjectingListener
+v19:28:09.641 [Test worker] INFO  c.n.a.g.ConfigurationInjectingListener - Initializing ConfigurationInjectingListener
+≠19:28:09.643 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.RegularImmutableSet
+r19:28:09.644 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener initialized []
+ã19:28:09.645 [Test worker] INFO  c.n.governator.LifecycleManager - Adding LifecycleListener 'Safe[LifecycleProvisionListener[]]' 851290851
+Å19:28:09.655 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:09.656 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:09.657 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:09.657 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+Ö19:28:09.673 [Test worker] INFO  c.n.a.p.CompositeInstanceConfigFactory - Assuming EC2 deployment environment due to config override
+·19:28:09.689 [Test worker] WARN  c.netflix.appinfo.AmazonInfo$Builder - Skipping the rest of AmazonInfo init as we were not able to load instanceId after the configured number of retries: 0, per fail fast configuration: true
+]19:28:09.689 [Test worker] INFO  c.n.a.RefreshableAmazonInfoProvider - Datacenter is: Amazon
+p19:28:09.690 [Test worker] INFO  c.n.a.p.CompositeInstanceConfigFactory - Creating EC2 specific instance config
+~19:28:09.703 [Test worker] INFO  c.n.a.p.EurekaConfigBasedInstanceInfoProvider - Setting initial instance status as: STARTING
+Ç19:28:09.712 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Starting LifecycleListener 'LifecycleProvisionListener[]'
+Å19:28:09.717 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:09.718 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:09.719 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:09.719 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+}19:28:09.719 [Test worker] INFO  c.n.a.config.DefaultCompositeConfig - Configuration with name'eureka-client' already exists
+Å19:28:09.720 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:09.721 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:09.721 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:09.721 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+}19:28:09.721 [Test worker] INFO  c.n.a.config.DefaultCompositeConfig - Configuration with name'eureka-client' already exists
+m19:28:09.747 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region default
+Å19:28:09.747 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+ü19:28:09.751 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1491758889751 with initial instances count: 0
+b19:28:09.753 [Test worker] INFO  c.n.governator.LifecycleManager - Shutting down LifecycleManager
+Ç19:28:09.753 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Stopping LifecycleListener 'LifecycleProvisionListener[]'
+i19:28:09.754 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+n19:28:09.754 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+±19:28:11.162 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultSettableConfig
+≤19:28:11.170 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+¬19:28:11.170 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$ConfigParameters
+≤19:28:11.171 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+≥19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.readers.PropertiesConfigReader
+Ø19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.SingletonImmutableSet
+…19:28:11.174 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$OptionalCascadeStrategy
+®19:28:11.176 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.DefaultConfigLoader
+¥19:28:11.184 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties
+∫19:28:11.186 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties (Aucun fichier ou dossier de ce type)
+X19:28:11.187 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded application 
+≤19:28:11.188 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+π19:28:11.188 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.ConfigurationInjectingListener
+v19:28:11.188 [Test worker] INFO  c.n.a.g.ConfigurationInjectingListener - Initializing ConfigurationInjectingListener
+≠19:28:11.190 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.RegularImmutableSet
+r19:28:11.191 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener initialized []
+å19:28:11.192 [Test worker] INFO  c.n.governator.LifecycleManager - Adding LifecycleListener 'Safe[LifecycleProvisionListener[]]' 1827370678
+Ç19:28:11.200 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Starting LifecycleListener 'LifecycleProvisionListener[]'
+Å19:28:11.206 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:11.207 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:11.207 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:11.207 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+±19:28:12.479 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultSettableConfig
+≤19:28:12.484 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+•19:28:12.484 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.MapConfig
+¬19:28:12.485 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$ConfigParameters
+≤19:28:12.485 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+≥19:28:12.488 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.readers.PropertiesConfigReader
+Ø19:28:12.488 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.SingletonImmutableSet
+…19:28:12.488 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.InternalArchaiusModule$OptionalCascadeStrategy
+®19:28:12.491 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.DefaultConfigLoader
+¥19:28:12.496 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties
+∫19:28:12.498 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/application.properties (Aucun fichier ou dossier de ce type)
+X19:28:12.498 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded application 
+≤19:28:12.498 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.config.DefaultCompositeConfig
+π19:28:12.498 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.netflix.archaius.guice.ConfigurationInjectingListener
+v19:28:12.499 [Test worker] INFO  c.n.a.g.ConfigurationInjectingListener - Initializing ConfigurationInjectingListener
+≠19:28:12.500 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener not initialized yet : class com.google.common.collect.RegularImmutableSet
+r19:28:12.501 [Test worker] DEBUG c.netflix.governator.LifecycleModule - LifecycleProvisionListener initialized []
+ã19:28:12.502 [Test worker] INFO  c.n.governator.LifecycleManager - Adding LifecycleListener 'Safe[LifecycleProvisionListener[]]' 851290851
+Å19:28:12.510 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:12.511 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:12.511 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:12.511 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+k19:28:12.529 [Test worker] INFO  c.n.a.p.CompositeInstanceConfigFactory - Creating generic instance config
+~19:28:12.545 [Test worker] INFO  c.n.a.p.EurekaConfigBasedInstanceInfoProvider - Setting initial instance status as: STARTING
+Ç19:28:12.554 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Starting LifecycleListener 'LifecycleProvisionListener[]'
+Å19:28:12.558 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:12.559 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:12.559 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:12.559 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+}19:28:12.559 [Test worker] INFO  c.n.a.config.DefaultCompositeConfig - Configuration with name'eureka-client' already exists
+Å19:28:12.560 [Test worker] DEBUG c.n.a.g.ConfigurationInjectingListener - Trying to loading configuration resource eureka-client
+∂19:28:12.561 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Attempting to load : file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties
+æ19:28:12.561 [Test worker] DEBUG c.n.a.readers.PropertiesConfigReader - Unable to load configuration file file:/home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties. /home/polivier/Documents/AL/eureka/eureka-client-archaius2/eureka-client.properties (Aucun fichier ou dossier de ce type)
+Z19:28:12.561 [Test worker] DEBUG c.n.archaius.DefaultConfigLoader - Loaded eureka-client 
+}19:28:12.561 [Test worker] INFO  c.n.a.config.DefaultCompositeConfig - Configuration with name'eureka-client' already exists
+m19:28:12.587 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region default
+Å19:28:12.587 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+ü19:28:12.591 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1491758892591 with initial instances count: 0
+b19:28:12.594 [Test worker] INFO  c.n.governator.LifecycleManager - Shutting down LifecycleManager
+Ç19:28:12.594 [Test worker] INFO  c.n.governator.SafeLifecycleListener - Stopping LifecycleListener 'LifecycleProvisionListener[]'
+i19:28:12.595 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+n19:28:12.595 [Test worker] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

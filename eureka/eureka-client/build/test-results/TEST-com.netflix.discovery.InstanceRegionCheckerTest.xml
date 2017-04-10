@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.discovery.InstanceRegionCheckerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:14" hostname="pc54.home" time="0.145">
+  <properties/>
+  <testcase name="testDefaultOverride" classname="com.netflix.discovery.InstanceRegionCheckerTest" time="0.14"/>
+  <testcase name="testNotMappedAZNotFollowingFormat" classname="com.netflix.discovery.InstanceRegionCheckerTest" time="0.0"/>
+  <testcase name="testNotMappedAZ" classname="com.netflix.discovery.InstanceRegionCheckerTest" time="0.0"/>
+  <testcase name="testInstanceWithNoAZ" classname="com.netflix.discovery.InstanceRegionCheckerTest" time="0.001"/>
+  <testcase name="testDefaults" classname="com.netflix.discovery.InstanceRegionCheckerTest" time="0.001"/>
+  <system-out><![CDATA[19:27:14.086 [Test worker] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+19:27:14.088 [Test worker] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19:27:14.115 [Test worker] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1b9baaf5
+19:27:14.126 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:27:14.133 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Fetching availability zone to region mapping for regions [us-east-1]
+19:27:14.134 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Availability zone to region mapping for all remote regions: {abc=us-east-1, def=us-east-1}
+19:27:14.141 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:27:14.141 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Fetching availability zone to region mapping for regions [us-east-1]
+19:27:14.141 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Availability zone to region mapping for all remote regions: {abc=us-east-1, def=us-east-1}
+19:27:14.142 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:27:14.142 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Fetching availability zone to region mapping for regions [us-east-1]
+19:27:14.142 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Availability zone to region mapping for all remote regions: {abc=us-east-1, def=us-east-1}
+19:27:14.143 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:27:14.143 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Fetching availability zone to region mapping for regions [us-east-1]
+19:27:14.143 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Availability zone to region mapping for all remote regions: {abc=us-east-1, def=us-east-1}
+19:27:14.144 [Test worker] WARN  c.n.d.internal.util.Archaius1Utils - Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+19:27:14.145 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Fetching availability zone to region mapping for regions [us-east-1]
+19:27:14.145 [Test worker] INFO  c.n.discovery.InstanceRegionChecker - Availability zone to region mapping for all remote regions: {abc=us-east-1, def=us-east-1}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

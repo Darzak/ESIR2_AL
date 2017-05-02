@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.netflix.discovery.util.EurekaUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:28:04" hostname="pc54.home" time="0.091">
-  <properties/>
-  <testcase name="testIsInEc2" classname="com.netflix.discovery.util.EurekaUtilsTest" time="0.089"/>
-  <testcase name="testIsInVpc" classname="com.netflix.discovery.util.EurekaUtilsTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

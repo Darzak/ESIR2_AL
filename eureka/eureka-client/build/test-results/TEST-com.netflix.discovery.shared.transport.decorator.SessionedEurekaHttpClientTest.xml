@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:58" hostname="pc54.home" time="0.236">
-  <properties/>
-  <testcase name="testReconnectIsEnforcedAtConfiguredInterval" classname="com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClientTest" time="0.236"/>
-  <system-out><![CDATA[19:27:59.185 [Test worker] DEBUG c.n.d.s.t.d.SessionedEurekaHttpClient - Ending a session and starting anew
-19:27:59.204 [Test worker] DEBUG c.n.d.s.t.d.SessionedEurekaHttpClient - Ending a session and starting anew
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

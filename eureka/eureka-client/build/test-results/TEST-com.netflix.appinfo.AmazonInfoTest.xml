@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.netflix.appinfo.AmazonInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:26:02" hostname="pc54.home" time="0.003">
-  <properties/>
-  <testcase name="testExtractAccountId" classname="com.netflix.appinfo.AmazonInfoTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

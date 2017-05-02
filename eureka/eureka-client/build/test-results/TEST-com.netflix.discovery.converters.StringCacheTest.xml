@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.netflix.discovery.converters.StringCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-09T17:27:35" hostname="pc54.home" time="1.204">
-  <properties/>
-  <testcase name="testVerifyStringsAreGarbageCollectedIfNotReferenced" classname="com.netflix.discovery.converters.StringCacheTest" time="1.204"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

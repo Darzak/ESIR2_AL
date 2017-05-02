@@ -1619,3 +1619,1816 @@ org.json.JSONException: A JSONObject text must begin with '{' at character 0
  INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 19:03:40,900 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/pc54.home - retransmit instance info with status UP
  INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 19:03:40,900 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/pc54.home: registering service...
  INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 19:03:40,900 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/pc54.home - registration status: not sent
+ WARN [main] 2017-04-30 21:48:46,017 URLConfigurationSource.java (line 122) No URLs will be polled as dynamic configuration sources.
+ INFO [main] 2017-04-30 21:48:46,153 URLConfigurationSource.java (line 123) To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ INFO [main] 2017-04-30 21:48:46,168 DynamicPropertyFactory.java (line 271) DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cbbc1e0
+ INFO [main] 2017-04-30 21:48:46,249 KaryonServer.java (line 146) Loading application properties with app id: edge and environment: null
+ INFO [main] 2017-04-30 21:48:46,282 ConfigurationUtils.java (line 182) Loaded properties file jar:file:/home/polivier/Documents/AL/ESIR2_AL/recipes-rss/rss-edge/build/libs/rss-edge-0.1.0-SNAPSHOT.jar!/edge.properties
+ INFO [main] 2017-04-30 21:48:47,996 Version.java (line 56) Hibernate Validator null
+ INFO [main] 2017-04-30 21:48:48,011 ServerBootstrap.java (line 239) No health check invocation strategy specified, using the default strategy com.netflix.karyon.server.eureka.AsyncHealthCheckInvocationStrategy. In order to override this behavior you provide an implementation of com.netflix.karyon.server.eureka.HealthCheckInvocationStrategy and specify the fully qualified class name of the implementation in the property com.netflix.karyon.health.check.strategy
+ INFO [main] 2017-04-30 21:48:48,040 AsyncHealthCheckInvocationStrategy.java (line 77) Application health check handler to be used by karyon: com.netflix.recipes.rss.server.EdgeHealthCheckHandler
+ INFO [main] 2017-04-30 21:48:48,067 NativeMethodAccessorImpl.java (line -2) Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+ WARN [main] 2017-04-30 21:48:48,156 PropertiesInstanceConfig.java (line 338) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ WARN [main] 2017-04-30 21:48:48,158 DefaultEurekaClientConfig.java (line 89) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ INFO [main] 2017-04-30 21:48:48,591 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [main] 2017-04-30 21:48:48,591 DiscoveryClient.java (line 555) Application is null : false
+ INFO [main] 2017-04-30 21:48:48,591 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [main] 2017-04-30 21:48:48,592 DiscoveryClient.java (line 560) Application version is -1: true
+ INFO [main] 2017-04-30 21:48:48,689 DiscoveryClient.java (line 616) Getting all instance registry info from the eureka server
+ INFO [main] 2017-04-30 21:48:48,805 DiscoveryClient.java (line 624) The response status is 200
+ INFO [main] 2017-04-30 21:48:48,806 DiscoveryClient.java (line 886) Starting heartbeat executor: renew interval is: 30
+ INFO [main] 2017-04-30 21:48:48,813 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-04-30 21:48:48,875 Server.java (line 266) jetty-7.x.y-SNAPSHOT
+ INFO [main] 2017-04-30 21:48:48,902 ContextHandler.java (line 744) started o.e.j.s.ServletContextHandler{/,null}
+ INFO [main] 2017-04-30 21:48:48,919 AbstractConnector.java (line 338) Started SelectChannelConnector@0.0.0.0:9092
+ INFO [main] 2017-04-30 21:48:48,920 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-04-30 21:48:48,920 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-04-30 21:48:48,923 WebAdminComponent.java (line 46) Set the default page for admin container to: /adminres/webadmin/index.html
+ INFO [main] 2017-04-30 21:48:48,924 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-04-30 21:48:48,925 ApplicationFinder.java (line 88) No application classes (Annotated with @Application) found. It is fine if you do not use the annotation model for applications.
+ INFO [main] 2017-04-30 21:48:48,925 ServerInitializer.java (line 86) No application classes found, this is fine if the application class is not annotated.
+ INFO [main] 2017-04-30 21:48:48,926 NativeMethodAccessorImpl.java (line -2) jetty-6.0.x
+ INFO [main] 2017-04-30 21:48:49,106 NativeMethodAccessorImpl.java (line -2) Started SocketConnector @ 0.0.0.0:9090
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 21:49:28,807 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/linux.home - retransmit instance info with status UP
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 21:49:28,808 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/linux.home: registering service...
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-04-30 21:49:28,809 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/linux.home - registration status: not sent
+ WARN [main] 2017-05-02 09:14:10,758 URLConfigurationSource.java (line 122) No URLs will be polled as dynamic configuration sources.
+ INFO [main] 2017-05-02 09:14:10,988 URLConfigurationSource.java (line 123) To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ INFO [main] 2017-05-02 09:14:11,011 DynamicPropertyFactory.java (line 271) DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cbbc1e0
+ INFO [main] 2017-05-02 09:14:11,126 KaryonServer.java (line 146) Loading application properties with app id: edge and environment: null
+ INFO [main] 2017-05-02 09:14:11,170 ConfigurationUtils.java (line 182) Loaded properties file jar:file:/home/polivier/Documents/AL/ESIR2_AL/recipes-rss/rss-edge/build/libs/rss-edge-0.1.0-SNAPSHOT.jar!/edge.properties
+ INFO [main] 2017-05-02 09:14:13,542 Version.java (line 56) Hibernate Validator null
+ INFO [main] 2017-05-02 09:14:13,558 ServerBootstrap.java (line 239) No health check invocation strategy specified, using the default strategy com.netflix.karyon.server.eureka.AsyncHealthCheckInvocationStrategy. In order to override this behavior you provide an implementation of com.netflix.karyon.server.eureka.HealthCheckInvocationStrategy and specify the fully qualified class name of the implementation in the property com.netflix.karyon.health.check.strategy
+ INFO [main] 2017-05-02 09:14:13,590 AsyncHealthCheckInvocationStrategy.java (line 77) Application health check handler to be used by karyon: com.netflix.recipes.rss.server.EdgeHealthCheckHandler
+ INFO [main] 2017-05-02 09:14:13,621 NativeMethodAccessorImpl.java (line -2) Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+ WARN [main] 2017-05-02 09:14:13,687 PropertiesInstanceConfig.java (line 338) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ WARN [main] 2017-05-02 09:14:13,689 DefaultEurekaClientConfig.java (line 89) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ INFO [main] 2017-05-02 09:14:14,163 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [main] 2017-05-02 09:14:14,163 DiscoveryClient.java (line 555) Application is null : false
+ INFO [main] 2017-05-02 09:14:14,164 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [main] 2017-05-02 09:14:14,164 DiscoveryClient.java (line 560) Application version is -1: true
+ERROR [main] 2017-05-02 09:14:14,220 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:800)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 17 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 24 more
+ERROR [main] 2017-05-02 09:14:14,221 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:800)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 17 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 24 more
+ INFO [main] 2017-05-02 09:14:14,222 DiscoveryClient.java (line 886) Starting heartbeat executor: renew interval is: 30
+ INFO [main] 2017-05-02 09:14:14,229 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:14:14,287 Server.java (line 266) jetty-7.x.y-SNAPSHOT
+ INFO [main] 2017-05-02 09:14:14,333 ContextHandler.java (line 744) started o.e.j.s.ServletContextHandler{/,null}
+ INFO [main] 2017-05-02 09:14:14,372 AbstractConnector.java (line 338) Started SelectChannelConnector@0.0.0.0:9092
+ INFO [main] 2017-05-02 09:14:14,374 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:14:14,375 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:14:14,378 WebAdminComponent.java (line 46) Set the default page for admin container to: /adminres/webadmin/index.html
+ INFO [main] 2017-05-02 09:14:14,379 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:14:14,379 ApplicationFinder.java (line 88) No application classes (Annotated with @Application) found. It is fine if you do not use the annotation model for applications.
+ INFO [main] 2017-05-02 09:14:14,380 ServerInitializer.java (line 86) No application classes found, this is fine if the application class is not annotated.
+ INFO [main] 2017-05-02 09:14:14,380 NativeMethodAccessorImpl.java (line -2) jetty-6.0.x
+ INFO [main] 2017-05-02 09:14:14,454 NativeMethodAccessorImpl.java (line -2) Started SocketConnector @ 0.0.0.0:9090
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:44,222 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:44,222 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:44,223 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:44,223 DiscoveryClient.java (line 560) Application version is -1: true
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:52,270 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:800)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 14 more
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:14:52,270 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = java.net.SocketTimeoutException: Read timed out
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:800)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:149)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:110)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:264)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:98)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:252)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:247)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:298)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:645)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 14 more
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:14:54,223 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/localhost.localdomain - retransmit instance info with status UP
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:14:54,224 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/localhost.localdomain: registering service...
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:14:54,224 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/localhost.localdomain - registration status: not sent
+ WARN [main] 2017-05-02 09:22:42,256 URLConfigurationSource.java (line 122) No URLs will be polled as dynamic configuration sources.
+ INFO [main] 2017-05-02 09:22:42,624 URLConfigurationSource.java (line 123) To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ INFO [main] 2017-05-02 09:22:42,655 DynamicPropertyFactory.java (line 271) DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cbbc1e0
+ INFO [main] 2017-05-02 09:22:42,807 KaryonServer.java (line 146) Loading application properties with app id: edge and environment: null
+ INFO [main] 2017-05-02 09:22:42,852 ConfigurationUtils.java (line 182) Loaded properties file jar:file:/home/polivier/Documents/AL/ESIR2_AL/recipes-rss/rss-edge/build/libs/rss-edge-0.1.0-SNAPSHOT.jar!/edge.properties
+ INFO [main] 2017-05-02 09:22:45,115 Version.java (line 56) Hibernate Validator null
+ INFO [main] 2017-05-02 09:22:45,127 ServerBootstrap.java (line 239) No health check invocation strategy specified, using the default strategy com.netflix.karyon.server.eureka.AsyncHealthCheckInvocationStrategy. In order to override this behavior you provide an implementation of com.netflix.karyon.server.eureka.HealthCheckInvocationStrategy and specify the fully qualified class name of the implementation in the property com.netflix.karyon.health.check.strategy
+ INFO [main] 2017-05-02 09:22:45,156 AsyncHealthCheckInvocationStrategy.java (line 77) Application health check handler to be used by karyon: com.netflix.recipes.rss.server.EdgeHealthCheckHandler
+ INFO [main] 2017-05-02 09:22:45,179 NativeMethodAccessorImpl.java (line -2) Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+ WARN [main] 2017-05-02 09:22:45,251 PropertiesInstanceConfig.java (line 338) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ WARN [main] 2017-05-02 09:22:45,253 DefaultEurekaClientConfig.java (line 89) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ INFO [main] 2017-05-02 09:22:45,742 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [main] 2017-05-02 09:22:45,743 DiscoveryClient.java (line 555) Application is null : false
+ INFO [main] 2017-05-02 09:22:45,743 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [main] 2017-05-02 09:22:45,743 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [main] 2017-05-02 09:22:45,832 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [main] 2017-05-02 09:22:45,833 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+ERROR [main] 2017-05-02 09:22:45,834 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+ INFO [main] 2017-05-02 09:22:45,834 DiscoveryClient.java (line 886) Starting heartbeat executor: renew interval is: 30
+ INFO [main] 2017-05-02 09:22:45,842 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:22:45,902 Server.java (line 266) jetty-7.x.y-SNAPSHOT
+ INFO [main] 2017-05-02 09:22:45,932 ContextHandler.java (line 744) started o.e.j.s.ServletContextHandler{/,null}
+ INFO [main] 2017-05-02 09:22:45,952 AbstractConnector.java (line 338) Started SelectChannelConnector@0.0.0.0:9092
+ INFO [main] 2017-05-02 09:22:45,954 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:22:45,954 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:22:45,957 WebAdminComponent.java (line 46) Set the default page for admin container to: /adminres/webadmin/index.html
+ INFO [main] 2017-05-02 09:22:45,958 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:22:45,959 ApplicationFinder.java (line 88) No application classes (Annotated with @Application) found. It is fine if you do not use the annotation model for applications.
+ INFO [main] 2017-05-02 09:22:45,959 ServerInitializer.java (line 86) No application classes found, this is fine if the application class is not annotated.
+ INFO [main] 2017-05-02 09:22:45,959 NativeMethodAccessorImpl.java (line -2) jetty-6.0.x
+ INFO [main] 2017-05-02 09:22:46,000 NativeMethodAccessorImpl.java (line -2) Started SocketConnector @ 0.0.0.0:9090
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,835 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,958 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,959 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,959 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,965 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,965 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:15,966 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,286 ConnectionPoolCleaner.java (line 110) Initializing ConnectionPoolCleaner for NFHttpClient:middletier-client
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,406 BaseLoadBalancer.java (line 184) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,420 ClientFactory.java (line 161) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,421 ClientFactory.java (line 86) Client Registered:com.netflix.niws.client.http.RestClient@3a7dd97c
+ WARN [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,426 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,427 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,428 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-1] 2017-05-02 09:23:22,428 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:23:25,836 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/localhost.localdomain - retransmit instance info with status UP
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:23:25,837 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/localhost.localdomain: registering service...
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:23:25,837 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/localhost.localdomain - registration status: not sent
+ WARN [hystrix-RSSThreadPool-2] 2017-05-02 09:23:28,925 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-2] 2017-05-02 09:23:28,926 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-3] 2017-05-02 09:23:28,936 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-3] 2017-05-02 09:23:28,939 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-3] 2017-05-02 09:23:28,940 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-3] 2017-05-02 09:23:28,941 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-4] 2017-05-02 09:23:29,044 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-4] 2017-05-02 09:23:29,044 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-4] 2017-05-02 09:23:29,045 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-4] 2017-05-02 09:23:29,045 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-5] 2017-05-02 09:23:43,356 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-5] 2017-05-02 09:23:43,360 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-6] 2017-05-02 09:23:43,361 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-6] 2017-05-02 09:23:43,362 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-6] 2017-05-02 09:23:43,362 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-6] 2017-05-02 09:23:43,362 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-7] 2017-05-02 09:23:43,808 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-7] 2017-05-02 09:23:43,810 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-7] 2017-05-02 09:23:43,811 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-7] 2017-05-02 09:23:43,811 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,835 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,835 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,835 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,836 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,840 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,841 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:23:45,841 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ WARN [hystrix-RSSThreadPool-8] 2017-05-02 09:23:52,068 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-8] 2017-05-02 09:23:52,069 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-9] 2017-05-02 09:23:52,070 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-9] 2017-05-02 09:23:52,071 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-9] 2017-05-02 09:23:52,071 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-9] 2017-05-02 09:23:52,072 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:52,328 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:52,329 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:52,329 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:52,329 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,027 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,027 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,028 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,028 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,028 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,028 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,590 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,590 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,590 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:23:56,590 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,066 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,067 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,068 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,068 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,068 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,068 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,619 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,619 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,619 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:02,619 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,053 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,053 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,054 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,054 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,054 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,055 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,528 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,529 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,529 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:06,529 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,438 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,439 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,440 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,440 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,440 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,440 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,914 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,914 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,914 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-10] 2017-05-02 09:24:09,914 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,834 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,835 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,835 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,835 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,841 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,842 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:15,843 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ WARN [main] 2017-05-02 09:24:26,372 URLConfigurationSource.java (line 122) No URLs will be polled as dynamic configuration sources.
+ INFO [main] 2017-05-02 09:24:26,563 URLConfigurationSource.java (line 123) To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ INFO [main] 2017-05-02 09:24:26,579 DynamicPropertyFactory.java (line 271) DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cbbc1e0
+ INFO [main] 2017-05-02 09:24:26,657 KaryonServer.java (line 146) Loading application properties with app id: edge and environment: null
+ INFO [main] 2017-05-02 09:24:26,696 ConfigurationUtils.java (line 182) Loaded properties file jar:file:/home/polivier/Documents/AL/ESIR2_AL/recipes-rss/rss-edge/build/libs/rss-edge-0.1.0-SNAPSHOT.jar!/edge.properties
+ INFO [main] 2017-05-02 09:24:28,881 Version.java (line 56) Hibernate Validator null
+ INFO [main] 2017-05-02 09:24:28,896 ServerBootstrap.java (line 239) No health check invocation strategy specified, using the default strategy com.netflix.karyon.server.eureka.AsyncHealthCheckInvocationStrategy. In order to override this behavior you provide an implementation of com.netflix.karyon.server.eureka.HealthCheckInvocationStrategy and specify the fully qualified class name of the implementation in the property com.netflix.karyon.health.check.strategy
+ INFO [main] 2017-05-02 09:24:28,928 AsyncHealthCheckInvocationStrategy.java (line 77) Application health check handler to be used by karyon: com.netflix.recipes.rss.server.EdgeHealthCheckHandler
+ INFO [main] 2017-05-02 09:24:28,954 NativeMethodAccessorImpl.java (line -2) Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+ WARN [main] 2017-05-02 09:24:29,021 PropertiesInstanceConfig.java (line 338) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ WARN [main] 2017-05-02 09:24:29,023 DefaultEurekaClientConfig.java (line 89) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ INFO [main] 2017-05-02 09:24:29,491 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [main] 2017-05-02 09:24:29,491 DiscoveryClient.java (line 555) Application is null : false
+ INFO [main] 2017-05-02 09:24:29,491 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [main] 2017-05-02 09:24:29,492 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [main] 2017-05-02 09:24:29,592 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [main] 2017-05-02 09:24:29,594 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+ERROR [main] 2017-05-02 09:24:29,595 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:199)
+	at com.netflix.discovery.DiscoveryManager.initComponent(DiscoveryManager.java:73)
+	at com.netflix.karyon.server.eureka.EurekaHandler.register(EurekaHandler.java:115)
+	at com.netflix.karyon.server.lifecycle.ServerInitializer.initialize(ServerInitializer.java:69)
+	at com.netflix.karyon.server.KaryonServer.start(KaryonServer.java:189)
+	at com.netflix.recipes.rss.server.BaseJettyServer.start(BaseJettyServer.java:75)
+	at com.netflix.recipes.rss.server.EdgeServer.main(EdgeServer.java:50)
+ INFO [main] 2017-05-02 09:24:29,597 DiscoveryClient.java (line 886) Starting heartbeat executor: renew interval is: 30
+ INFO [main] 2017-05-02 09:24:29,606 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:24:29,672 Server.java (line 266) jetty-7.x.y-SNAPSHOT
+ INFO [main] 2017-05-02 09:24:29,705 ContextHandler.java (line 744) started o.e.j.s.ServletContextHandler{/,null}
+ INFO [main] 2017-05-02 09:24:29,728 AbstractConnector.java (line 338) Started SelectChannelConnector@0.0.0.0:9092
+ INFO [main] 2017-05-02 09:24:29,730 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 09:24:29,731 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:24:29,734 WebAdminComponent.java (line 46) Set the default page for admin container to: /adminres/webadmin/index.html
+ INFO [main] 2017-05-02 09:24:29,735 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 09:24:29,735 ApplicationFinder.java (line 88) No application classes (Annotated with @Application) found. It is fine if you do not use the annotation model for applications.
+ INFO [main] 2017-05-02 09:24:29,736 ServerInitializer.java (line 86) No application classes found, this is fine if the application class is not annotated.
+ INFO [main] 2017-05-02 09:24:29,736 NativeMethodAccessorImpl.java (line -2) jetty-6.0.x
+ INFO [main] 2017-05-02 09:24:29,777 NativeMethodAccessorImpl.java (line -2) Started SocketConnector @ 0.0.0.0:9090
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,597 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,598 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,599 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,600 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,608 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,609 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:24:59,609 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:25:09,599 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/localhost.localdomain - retransmit instance info with status UP
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:25:09,600 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/localhost.localdomain: registering service...
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 09:25:09,600 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/localhost.localdomain - registration status: not sent
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,597 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,598 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,599 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,600 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,610 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,612 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:29,612 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,351 ConnectionPoolCleaner.java (line 110) Initializing ConnectionPoolCleaner for NFHttpClient:middletier-client
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,444 BaseLoadBalancer.java (line 184) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,453 ClientFactory.java (line 161) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,455 ClientFactory.java (line 86) Client Registered:com.netflix.niws.client.http.RestClient@20b88769
+ WARN [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,456 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,457 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,458 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-1] 2017-05-02 09:25:42,458 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-2] 2017-05-02 09:25:46,006 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-2] 2017-05-02 09:25:46,007 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception occurred when adding a RSS feed
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:73)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	at com.netflix.recipes.rss.hystrix.AddRSSCommand.run(AddRSSCommand.java:69)
+	... 9 more
+ WARN [hystrix-RSSThreadPool-3] 2017-05-02 09:25:46,018 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-3] 2017-05-02 09:25:46,019 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-3] 2017-05-02 09:25:46,024 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-3] 2017-05-02 09:25:46,025 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ WARN [hystrix-RSSThreadPool-4] 2017-05-02 09:25:46,120 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-4] 2017-05-02 09:25:46,120 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-4] 2017-05-02 09:25:46,121 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-4] 2017-05-02 09:25:46,121 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,597 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,600 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,601 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,602 DiscoveryClient.java (line 560) Application version is -1: true
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,609 DiscoveryClient.java (line 830) Action: Refresh  => returned status of 403 from http://localhost:8080/eureka/v2/apps/
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,609 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/
+Can't contact any eureka nodes - possibly a security group issue?
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 09:25:59,610 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = Bad status: 403
+java.lang.RuntimeException: Bad status: 403
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:833)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:615)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:562)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,597 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,598 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,598 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,598 DiscoveryClient.java (line 560) Application version is -1: true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,634 DiscoveryClient.java (line 616) Getting all instance registry info from the eureka server
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 09:26:29,769 DiscoveryClient.java (line 624) The response status is 200
+ WARN [btpool0-5] 2017-05-02 10:27:30,158 NativeMethodAccessorImpl.java (line -2) EXCEPTION 
+javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:922)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:855)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:735)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:636)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	... 20 more
+ WARN [btpool0-5] 2017-05-02 10:27:30,163 NativeMethodAccessorImpl.java (line -2) Nested in javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0:
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:735)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:636)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:30,164 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp: 
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:735)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:636)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:30,164 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:735)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:636)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:31,195 NativeMethodAccessorImpl.java (line -2) EXCEPTION 
+javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:922)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:855)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	... 20 more
+ WARN [btpool0-5] 2017-05-02 10:27:31,195 NativeMethodAccessorImpl.java (line -2) Nested in javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0:
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:31,196 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp: 
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:31,196 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:36,711 NativeMethodAccessorImpl.java (line -2) EXCEPTION 
+javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:922)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:855)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	... 20 more
+ WARN [btpool0-5] 2017-05-02 10:27:36,711 NativeMethodAccessorImpl.java (line -2) Nested in javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0:
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:36,711 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp: 
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:36,712 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:53,799 NativeMethodAccessorImpl.java (line -2) EXCEPTION 
+javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:922)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:855)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	... 20 more
+ WARN [btpool0-5] 2017-05-02 10:27:53,800 NativeMethodAccessorImpl.java (line -2) Nested in javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0:
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:53,800 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp: 
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-5] 2017-05-02 10:27:53,801 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [main] 2017-05-02 10:28:03,854 URLConfigurationSource.java (line 122) No URLs will be polled as dynamic configuration sources.
+ INFO [main] 2017-05-02 10:28:03,989 URLConfigurationSource.java (line 123) To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ INFO [main] 2017-05-02 10:28:04,006 DynamicPropertyFactory.java (line 271) DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3cbbc1e0
+ INFO [main] 2017-05-02 10:28:04,094 KaryonServer.java (line 146) Loading application properties with app id: edge and environment: null
+ INFO [main] 2017-05-02 10:28:04,132 ConfigurationUtils.java (line 182) Loaded properties file jar:file:/home/polivier/Documents/AL/ESIR2_AL/recipes-rss/rss-edge/build/libs/rss-edge-0.1.0-SNAPSHOT.jar!/edge.properties
+ INFO [main] 2017-05-02 10:28:06,414 Version.java (line 56) Hibernate Validator null
+ INFO [main] 2017-05-02 10:28:06,432 ServerBootstrap.java (line 239) No health check invocation strategy specified, using the default strategy com.netflix.karyon.server.eureka.AsyncHealthCheckInvocationStrategy. In order to override this behavior you provide an implementation of com.netflix.karyon.server.eureka.HealthCheckInvocationStrategy and specify the fully qualified class name of the implementation in the property com.netflix.karyon.health.check.strategy
+ INFO [main] 2017-05-02 10:28:06,461 AsyncHealthCheckInvocationStrategy.java (line 77) Application health check handler to be used by karyon: com.netflix.recipes.rss.server.EdgeHealthCheckHandler
+ INFO [main] 2017-05-02 10:28:06,501 NativeMethodAccessorImpl.java (line -2) Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+ WARN [main] 2017-05-02 10:28:06,587 PropertiesInstanceConfig.java (line 338) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ WARN [main] 2017-05-02 10:28:06,589 DefaultEurekaClientConfig.java (line 89) Cannot find the properties specified : eureka-client. This may be okay if there are other environment specific properties or the configuration is installed with a different mechanism.
+ INFO [main] 2017-05-02 10:28:07,076 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [main] 2017-05-02 10:28:07,077 DiscoveryClient.java (line 555) Application is null : false
+ INFO [main] 2017-05-02 10:28:07,077 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [main] 2017-05-02 10:28:07,077 DiscoveryClient.java (line 560) Application version is -1: true
+ INFO [main] 2017-05-02 10:28:07,161 DiscoveryClient.java (line 616) Getting all instance registry info from the eureka server
+ INFO [main] 2017-05-02 10:28:07,294 DiscoveryClient.java (line 624) The response status is 200
+ INFO [main] 2017-05-02 10:28:07,295 DiscoveryClient.java (line 886) Starting heartbeat executor: renew interval is: 30
+ INFO [main] 2017-05-02 10:28:07,301 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 10:28:07,355 Server.java (line 266) jetty-7.x.y-SNAPSHOT
+ INFO [main] 2017-05-02 10:28:07,389 ContextHandler.java (line 744) started o.e.j.s.ServletContextHandler{/,null}
+ INFO [main] 2017-05-02 10:28:07,459 AbstractConnector.java (line 338) Started SelectChannelConnector@0.0.0.0:9092
+ INFO [main] 2017-05-02 10:28:07,460 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.AdminResourcesContainer
+ INFO [main] 2017-05-02 10:28:07,461 ServerInitializer.java (line 74) Initializing component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 10:28:07,464 WebAdminComponent.java (line 46) Set the default page for admin container to: /adminres/webadmin/index.html
+ INFO [main] 2017-05-02 10:28:07,466 ServerInitializer.java (line 77) Successfully initialized component class: com.netflix.adminresources.resources.WebAdminComponent
+ INFO [main] 2017-05-02 10:28:07,467 ApplicationFinder.java (line 88) No application classes (Annotated with @Application) found. It is fine if you do not use the annotation model for applications.
+ INFO [main] 2017-05-02 10:28:07,467 ServerInitializer.java (line 86) No application classes found, this is fine if the application class is not annotated.
+ INFO [main] 2017-05-02 10:28:07,468 NativeMethodAccessorImpl.java (line -2) jetty-6.0.x
+ INFO [main] 2017-05-02 10:28:07,610 NativeMethodAccessorImpl.java (line -2) Started SocketConnector @ 0.0.0.0:9090
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 10:28:40,281 ConnectionPoolCleaner.java (line 110) Initializing ConnectionPoolCleaner for NFHttpClient:middletier-client
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 10:28:40,399 BaseLoadBalancer.java (line 184) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 10:28:40,478 ClientFactory.java (line 161) Client:middletier-client instantiated a LoadBalancer:DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[localhost.localdomain:9191],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost.localdomain:9191;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 01:00:00 CET 1970;	First connection made: Thu Jan 01 01:00:00 CET 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ INFO [hystrix-RSSThreadPool-1] 2017-05-02 10:28:40,480 ClientFactory.java (line 86) Client Registered:com.netflix.niws.client.http.RestClient@7f527823
+ WARN [btpool0-2] 2017-05-02 10:28:41,720 NativeMethodAccessorImpl.java (line -2) EXCEPTION 
+javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.apache.jasper.runtime.PageContextImpl.doHandlePageException(PageContextImpl.java:922)
+	at org.apache.jasper.runtime.PageContextImpl.handlePageException(PageContextImpl.java:855)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	... 20 more
+ WARN [btpool0-2] 2017-05-02 10:28:41,721 NativeMethodAccessorImpl.java (line -2) Nested in javax.servlet.ServletException: org.json.JSONException: A JSONObject text must begin with '{' at character 0:
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-2] 2017-05-02 10:28:41,723 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp: 
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ WARN [btpool0-2] 2017-05-02 10:28:41,723 NativeMethodAccessorImpl.java (line -2) /jsp/rss.jsp
+org.json.JSONException: A JSONObject text must begin with '{' at character 0
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:410)
+	at org.json.JSONObject.<init>(JSONObject.java:179)
+	at org.json.JSONObject.<init>(JSONObject.java:402)
+	at org.apache.jsp.jsp.rss_jsp._jspService(Unknown Source)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:464)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:358)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:459)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:231)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:629)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:141)
+	at org.mortbay.jetty.Server.handle(Server.java:303)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:452)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:721)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:509)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:209)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:349)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:217)
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:475)
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 10:28:47,296 DiscoveryClient.java (line 1283) DiscoveryClient_UNKNOWN/localhost.localdomain - retransmit instance info with status UP
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 10:28:47,297 DiscoveryClient.java (line 424) DiscoveryClient_UNKNOWN/localhost.localdomain: registering service...
+ INFO [DiscoveryClient_InstanceInfo-Replictor] 2017-05-02 10:28:47,297 DiscoveryClient.java (line 429) DiscoveryClient_UNKNOWN/localhost.localdomain - registration status: not sent
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 10:29:07,299 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/delta
+Can't contact any eureka nodes - possibly a security group issue?
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:805)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:565)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 13 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 20 more
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 10:29:07,301 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:805)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:565)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 13 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 20 more
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 10:29:37,298 DiscoveryClient.java (line 847) Can't get a response from http://localhost:8080/eureka/v2/apps/delta
+Can't contact any eureka nodes - possibly a security group issue?
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:805)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:565)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 13 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 20 more
+ERROR [DiscoveryClient_CacheRefresher] 2017-05-02 10:29:37,299 DiscoveryClient.java (line 590) DiscoveryClient_UNKNOWN/localhost.localdomain - was unable to refresh it's cache! status = org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:184)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:120)
+	at com.sun.jersey.api.client.Client.handle(Client.java:648)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:680)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:507)
+	at com.netflix.discovery.DiscoveryClient.getUrl(DiscoveryClient.java:1196)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:805)
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:753)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:565)
+	at com.netflix.discovery.DiscoveryClient.access$1200(DiscoveryClient.java:87)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1317)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:8080 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:776)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:170)
+	... 13 more
+Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 20 more
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:08,388 DiscoveryClient.java (line 658) The Reconcile hashcodes do not match, client : UP_2_, server : . Getting the full registry
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:08,404 DiscoveryClient.java (line 677) The reconcile string is 
+ WARN [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:08,404 DiscoveryClient.java (line 680) The Reconcile hashcodes after complete sync up, client : , server : .
+ WARN [hystrix-RSSThreadPool-2] 2017-05-02 10:30:28,991 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:0;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost.localdomain:9191;	Zone:defaultZone;	Total Requests:1;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Tue May 02 10:28:40 CEST 2017;	First connection made: Tue May 02 10:28:40 CEST 2017;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:1228.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:1228.0;	max resp time:1228.0;	stddev resp time:0.0]
+]}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-2] 2017-05-02 10:30:28,993 AbstractLoadBalancerAwareClient.java (line 420) Exception while executing request which is deemed retry-able, retrying ..., Next Server Retry Attempt#:1, URI tried:/middletier/rss/user/default
+ WARN [hystrix-RSSThreadPool-2] 2017-05-02 10:30:28,993 RoundRobinRule.java (line 59) No up servers available from load balancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=middletier-client,current list of Servers=[],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:0;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost.localdomain:9191;	Zone:defaultZone;	Total Requests:1;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Tue May 02 10:28:40 CEST 2017;	First connection made: Tue May 02 10:28:40 CEST 2017;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:1228.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:1228.0;	max resp time:1228.0;	stddev resp time:0.0]
+]}ServerList:DiscoveryEnabledNIWSServerList:; clientName:middletier-client; Effective vipAddresses:middletier; isSecure:false; datacenter:null
+ERROR [hystrix-RSSThreadPool-2] 2017-05-02 10:30:28,994 HystrixCommand.java (line 812) Error executing HystrixCommand
+java.lang.RuntimeException: Exception
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:66)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:36)
+	at com.netflix.hystrix.HystrixCommand.executeCommand(HystrixCommand.java:764)
+	at com.netflix.hystrix.HystrixCommand.access$1400(HystrixCommand.java:81)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:706)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextCallable.call(HystrixContextCallable.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: NUMBER_OF_RETRIES_NEXTSERVER_EXCEEDED :1 retries, while making a RestClient call for:/middletier/rss/user/default:LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:413)
+	at com.netflix.recipes.rss.hystrix.GetRSSCommand.run(GetRSSCommand.java:62)
+	... 9 more
+Caused by: com.netflix.client.ClientException: LoadBalancer returned null Server for :middletier-client
+	at com.netflix.client.AbstractLoadBalancerAwareClient.computeFinalUriWithLoadBalancer(AbstractLoadBalancerAwareClient.java:542)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:401)
+	... 10 more
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,295 DiscoveryClient.java (line 553) Disable delta property : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,296 DiscoveryClient.java (line 555) Application is null : false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,296 DiscoveryClient.java (line 557) Registered Applications size is zero : true
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,297 DiscoveryClient.java (line 560) Application version is -1: false
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,307 DiscoveryClient.java (line 616) Getting all instance registry info from the eureka server
+ INFO [DiscoveryClient_CacheRefresher] 2017-05-02 10:30:37,311 DiscoveryClient.java (line 624) The response status is 200

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: jar
+Implementation-Version: 1.1.73-SNAPSHOT
+Build-Time-ISO-8601: 2013-01-30T02:10:05+0000
+

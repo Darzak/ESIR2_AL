@@ -1,0 +1,42 @@
+version: "3"
+services:
+
+  eureka:
+    image: myeureka
+    hostname: eureka
+    container_name: eureka
+    ports: ['8080:8080']
+    privileged: true
+    network_mode: "bridge"
+
+  middletier:
+    image: mymiddletier
+    depends_on: ['eureka']
+    container_name: middletier
+    hostname: middletier
+    ports: ['8989:9191']
+    external_links: ['eureka:eureka']
+    network_mode: "bridge"
+
+  middletier1:
+    image: mymiddletier
+    depends_on: ['eureka']
+    container_name: middletier1
+    hostname: middletier1
+    ports: ['9191:9191']
+    external_links: ['eureka:eureka']
+    network_mode: "bridge"
+
+  edge:
+    image: myedge
+    depends_on: ['eureka','middletier']
+    ports: ['9091:9090']
+    external_links: ['eureka:eureka','middletier:middletier']
+    network_mode: "bridge"
+
+  edge1:
+    image: myedge
+    depends_on: ['eureka','middletier1']
+    ports: ['9090:9090']
+    external_links: ['eureka:eureka','middletier1:middletier1']
+    network_mode: "bridge"

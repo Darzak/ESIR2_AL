@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.xbean.osgi.bundle.util.equinox;uses:="org.a
+ pache.xbean.osgi.bundle.util,org.osgi.framework,org.eclipse.osgi.serv
+ ice.urlconversion";version="3.11.1",org.apache.xbean.osgi.bundle.util
+ ;uses:="org.osgi.framework,org.osgi.service.packageadmin,org.slf4j,or
+ g.osgi.framework.wiring";version="3.11.1",org.apache.xbean.osgi.bundl
+ e.util.jar;uses:="org.osgi.framework";version="3.11.1"
+Implementation-Title: Apache XBean OSGI Bundle Utilities
+Implementation-Version: 3.11.1
+Built-By: forrestxm
+Tool: Bnd-1.15.0
+Bundle-Name: Apache XBean OSGI Bundle Utilities
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_29
+Bundle-Version: 3.11.1
+Bnd-LastModified: 1339147141882
+Bundle-ManifestVersion: 2
+Bundle-Description: XBean is a plugin based server architecture.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-DocURL: http://geronimo.apache.org/maven/xbean/3.11.1/xbean-bun
+ dleutils
+Bundle-SymbolicName: org.apache.xbean.bundleutils
+Import-Package: org.eclipse.osgi.service.urlconversion;resolution:=opt
+ ional;version="[1.0,2)",org.osgi.framework;version="[1.5,2)",org.osgi
+ .framework.wiring;resolution:=optional;version="[1.0,2)",org.osgi.ser
+ vice.packageadmin;version="[1.2,2)",org.slf4j;version="[1.5,2)"
+

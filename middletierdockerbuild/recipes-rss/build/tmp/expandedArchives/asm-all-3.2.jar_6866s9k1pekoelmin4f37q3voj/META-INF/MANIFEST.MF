@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 14.0-b16 (Sun Microsystems Inc.)
+Implementation-Title: ASM all classes
+Implementation-Version: 3.2
+Implementation-Vendor: France Telecom R&D
+Bundle-ManifestVersion: 2
+Bundle-Name: ASM all classes
+Bundle-Vendor: France Telecom R&D
+Bundle-Version: 3.2
+Bundle-DocURL: http://asm.objectweb.org
+Bundle-SymbolicName: org.objectweb.asm.all
+Export-Package: org.objectweb.asm;version=3.2,org.objectweb.asm.signat
+ ure;version=3.2,org.objectweb.asm.commons;version=3.2,org.objectweb.a
+ sm.tree;version=3.2,org.objectweb.asm.tree.analysis;version=3.2,org.o
+ bjectweb.asm.util;version=3.2,org.objectweb.asm.xml;version=3.2
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+

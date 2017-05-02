@@ -27,7 +27,7 @@ https://github.com/Darzak/ESIR2_AL.git
  docker build -t myedge ./
  ```
 
- ## Step 2 : run images
+ ## Step 2 : run images separately
 
  - Run eureka container
  ```
@@ -46,3 +46,10 @@ docker run -p 9191:9191 --link eureka:eureka -h middletier --name middletier mym
  ```
 
  - Check [edge service](http://localhost:9090/jsp/rss.jsp)
+
+ ## Step 3 : run images with docker compose
+
+ - Be sure to be at the root of the project
+ ```
+ docker-compose up
+ ```

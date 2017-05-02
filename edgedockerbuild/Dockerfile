@@ -3,7 +3,7 @@ FROM java:7
 RUN apt-get update && apt-get install -y git wget libgradle-core-java
 
 RUN git clone https://github.com/Netflix/recipes-rss.git
-COPY recipes-rss/rss-edge/src/main/resources/edge.properties /recipes-rss/rss-edge/src/main/resources/edge.properties
+COPY edge.properties /recipes-rss/rss-edge/src/main/resources/edge.properties
 
 WORKDIR /recipes-rss
 ENV APP_ENV=dev
